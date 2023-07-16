@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
+<style>
+.responsive-image {
+  width: 100%; /* Set initial width to 100% for full-width image */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .responsive-image {
+    width: 50%; /* Resize the image to 50% of the screen width */
+  }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .responsive-image {
+    width: 30%; /* Resize the image to 30% of the screen width */
+  }
+}
+</style>
 <head>
   <title>GoaLabel</title>
 </head>
 <body>
-  <img src="comingsoon.jpg" alt="coming_soon_goalabel">
+  <img class="response-image" src="comingsoon.jpg" alt="coming_soon_goalabel">
 </body>
 </html>
