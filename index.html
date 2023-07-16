@@ -3,6 +3,8 @@
 <style>
 .responsive-image {
   width: 100%; /* Set initial width to 100% for full-width image */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  object-fit: cover; /* Scale the image to cover the entire container */
 }
 
 /* Media query for screens with a maximum width of 768px */
@@ -23,6 +25,6 @@
   <title>GoaLabel</title>
 </head>
 <body>
-  <img class="response-image" src="comingsoon.jpg" alt="coming_soon_goalabel">
+  <img class="responsive-image" src="comingsoon.jpg" alt="coming_soon_goalabel">
 </body>
 </html>
